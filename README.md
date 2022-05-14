@@ -20,13 +20,10 @@ To use this in you rails application you have to add the following gem to the Ge
 You can also run the benchamrk results by running [this file(benchmark_data.rb)] in rails console.
 
 For 1000 Records,
-
-================================
+```
 ActiveModel Serializer Benchmark      
   0.134760   0.000093   0.134853 (  0.137027)
-================================      
 
-================================      
 JSONApi Serializer Benchmark          
   0.022771   0.000041   0.022812 (  0.022845)
-================================
+```
